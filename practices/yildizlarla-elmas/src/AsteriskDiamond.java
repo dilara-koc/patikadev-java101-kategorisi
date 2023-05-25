@@ -22,7 +22,7 @@ public class AsteriskDiamond {
             System.out.println();
         }
 
-        //Second half of the diamond (it is a inverted triangle)
+        //Second half of the diamond (it is an inverted triangle)
         for (int i = 1; i <= number; i++){
 
             for (int l = 1; l <= (i - 1); l++){
