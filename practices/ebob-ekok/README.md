@@ -1,4 +1,4 @@
-# Patika.dev Java101 eğitimi EBOB-EKOK Bulan Program pratiğidir.
+# Patika.dev Java101 eğitimi EBOB - EKOK Bulan Program pratiğidir.
 
 * Çalışmanın içerik ve detayları için lütfen [linki](https://academy.patika.dev/courses/java101/pratik-ebob-ekok) takip ediniz.
 
