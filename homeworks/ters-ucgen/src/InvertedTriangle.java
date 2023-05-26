@@ -11,7 +11,7 @@ public class InvertedTriangle {
                 System.out.print(" ");
             }
 
-            for (int k = 1; k <= ((2*(number-i))+1); k++ ){
+            for (int k = 1; k <= ((2 * (number - i)) + 1); k++){
                 System.out.print("*");
             }
 
