@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class ArrayTranspose {
     public static void main(String[] args) {
 
-        //Take the elements of the matrix from the user
         int[][] matrix = new int[2][3];
         int[][] transpose = new int[3][2];
 
@@ -13,7 +12,7 @@ public class ArrayTranspose {
         for (int k = 0; k < matrix.length; k++) {
             int temp = 0;
             for (int l = 0; l < matrix[k].length; l++) {
-                matrix[k][l] = input.nextInt();
+                matrix[k][l] = input.nextInt(); //Take the elements of the matrix from the user
                 temp = matrix[k][l];
                 transpose[l][k] = temp; //Transpose of the matrix
             }
