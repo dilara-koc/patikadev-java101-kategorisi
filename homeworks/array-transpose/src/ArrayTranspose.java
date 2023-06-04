@@ -5,21 +5,17 @@ public class ArrayTranspose {
 
         //Take the elements of the matrix from the user
         int[][] matrix = new int[2][3];
+        int[][] transpose = new int[3][2];
+
         Scanner input = new Scanner(System.in);
         System.out.println("Matrix: ");
+
         for (int k = 0; k < matrix.length; k++) {
+            int temp = 0;
             for (int l = 0; l < matrix[k].length; l++) {
                 matrix[k][l] = input.nextInt();
-            }
-        }
-
-        //Transpose of the matrix
-        int[][] transpose = new int[3][2];
-        for (int row = 0; row < matrix.length; row++) {
-            int temp = 0;
-            for (int column = 0; column < matrix[row].length; column++) {
-                temp = matrix[row][column];
-                transpose[column][row] = temp;
+                temp = matrix[k][l];
+                transpose[l][k] = temp; //Transpose of the matrix
             }
         }
 
