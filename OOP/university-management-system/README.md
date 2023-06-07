@@ -2,4 +2,4 @@
 
 * Çalışmanın içerik ve detayları için lütfen [linki](https://academy.patika.dev/courses/oop/odev-university) takip ediniz.
 
-![Üniversite Yönetim Sistemi](oob-uni-management.png)
+![Üniversite Yönetim Sistemi](oop-uni-management.png)
